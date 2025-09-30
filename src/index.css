@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --titles: Montserrat, sans-serif;
+  --texts: Inter, sans-serif;
+  --colorBackground: rgb(223, 237, 247);
+  --firstColor: #e3dbd6;
+  --secondColor: #8e847c;
+  --colorTextsMain: #96887d;
+  --colorDetails: #94a3b8;
+  --actionColor: #3b82f6;
+  --actionColorHover: #3b83f695;
+  --friendColor: #38bdf8;
+  font-family: var(--texts);
+}
+
+body {
+  background-color: var(--colorBackground);
+}
